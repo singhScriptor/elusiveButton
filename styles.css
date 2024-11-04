@@ -2,6 +2,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
@@ -10,7 +11,12 @@ body {
 button {
     padding: 10px 20px;
     font-size: 18px;
-    margin: 0 10px;
+    margin: 10px;
     cursor: pointer;
-    position: relative;
+}
+
+#message {
+    font-size: 24px;
+    color: green;
+    margin-top: 20px;
 }

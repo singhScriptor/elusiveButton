@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
+    var yesButton = document.getElementById('yesButton');
     var noButton = document.getElementById('noButton');
+    var message = document.getElementById('message');
+
+    yesButton.addEventListener('click', function() {
+        message.style.display = 'block';
+    });
 
     noButton.addEventListener('mouseover', function() {
         moveButton(noButton);
