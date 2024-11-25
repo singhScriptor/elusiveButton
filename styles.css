@@ -2,10 +2,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     height: 100vh;
     margin: 0;
+    width: 100%;
     font-family: Arial, sans-serif;
+    background-image: url(./recourses/giphy.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 button {
@@ -13,7 +18,16 @@ button {
     font-size: 18px;
     margin: 10px;
     cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(120deg, #41afd0 0%, #50c890 46%, #ffcc70 100%);
+    animation: backgroundAnimation 5s infinite alternate;
+    -webkit-animation: backgroundAnimation 5s infinite alternate;
+    width: 150px;
+    
 }
+
+
 
 #message {
     font-size: 24px;
